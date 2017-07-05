@@ -1,25 +1,11 @@
 ---
-title: "Reproducible Research: Peer Assessment 1"
-output: 
-  html_document:
-    keep_md: true
+title: "Course Project 1 - Week 2 - Reproducile Research - JHU - Coursera"
+author: "Joe Sopko"
+date: "July 5, 2017"
+output: html_document
 ---
 
-
-## Loading and preprocessing the data
-
-
-
-## What is mean total number of steps taken per day?
-
-
-
-## What is the average daily activity pattern?
-
-
-
-## Imputing missing values
-
-
-
-## Are there differences in activity patterns between weekdays and weekends?
+```{r RR-WK2-CP1.R}
+rmarkdown::render("RR-WK2-CP1.R")
+echo = TRUE 
+```
